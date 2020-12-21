@@ -6,8 +6,12 @@
     height: 8em;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
     background-color:rgb(201, 173, 233)    
+}
+
+.header-item {
+    width: 32%;
 }
 
 .section {     
@@ -15,10 +19,12 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgb(201, 173, 233);
 }
 
 .article {
     width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
